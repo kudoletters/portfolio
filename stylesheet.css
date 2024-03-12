@@ -41,18 +41,17 @@ a[href] {
 /* HOME navigation bar */
 .nav {
     text-align: center;
-    border-radius: 10px;
     width: 25vw;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0%);
 }
 .dropdown {
-    font-size: 15px;
+    font-size: 1.5vw;
     background-color: #95bfff;
     color: #ffffff;
-    padding: 10px 15px;
-    border-radius: 20px;
+    padding: 1vw 1.5vw;
+    border-radius: 2vw;
     border: none;
     cursor: pointer;
     width: 100%;
@@ -61,7 +60,7 @@ a[href] {
     background-color: #ffffff;
     color: #95bfff;
     transition: 0.5s;
-    box-shadow: 0px 5px 5px;
+    box-shadow: 0px 0.5vw 0.5vw;
     transition: 0.5s;
 }
 
@@ -91,7 +90,7 @@ a[href] {
     background-color: #ffffff;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+    padding-top: 6vw;
     z-index: 999;
 }
 .side-menu ul {
@@ -99,12 +98,12 @@ a[href] {
     padding: 0;
 }
 .side-menu ul li {
-    padding: 15px;
+    padding: 1.5vw;
     transition: opacity 0.3s;
 }
 .side-menu ul li a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 2vw;
     transition: 0.3s;
 }
 .side-menu ul li a:hover {
@@ -112,13 +111,13 @@ a[href] {
 }
 .socialmedia {
     position: absolute;
-    bottom: 100px;
+    bottom: 10vw;
     left: 50%;
     transform: translateX(-50%);
 }
 .socialmedia img {
-    width: 30px;
-    height: 30px;
+    width: 3vw;
+    height: 3vw;
 }
 
 
