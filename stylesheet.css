@@ -127,7 +127,7 @@ a[href] {
 /* images */
 figure img {
     height: 25vh;
-    display: inline-block
+    display: inline-block;
     border-radius: 10px;
 }
 figure {
