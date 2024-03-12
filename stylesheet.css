@@ -1,0 +1,153 @@
+/* fonts */
+@font-face {
+    font-family: 'Manrope';
+    src: url('fonts/Manrope.ttf');
+}
+@font-face {
+    font-family: 'Aima Display';
+    src: url('fonts/AimaDisplay.otf');
+}
+@font-face {
+    font-family: 'Svetze';
+    src: url('fonts/Svetze.otf');
+}
+
+
+
+/* general setting */
+* {
+    text-align: center;
+    font-family: 'Manrope';
+    font-weight: 500;
+}
+body {
+    background-color: #E5F0FF;
+}
+a[href] {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+/* heading setting */
+.h1 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+
+/* HOME navigation bar */
+.nav {
+    text-align: center;
+    border-radius: 10px;
+    width: 25%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.dropdown {
+    font-size: 15px;
+    background-color: #95bfff;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.dropdown:hover {
+    background-color: #ffffff;
+    color: #95bfff;
+    transition: 0.5s;
+    box-shadow: 0px 5px 5px;
+    transition: 0.5s;
+}
+
+
+
+/* SIDE navigation bar */
+.menu-icon {
+    cursor: pointer;
+    padding: 15px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+.bar {
+    width: 21px;
+    height: 3px;
+    background-color: #000000;
+    margin: 5px 0;
+    transition: 0.5s;
+}
+.side-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 999;
+}
+.side-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+.side-menu ul li {
+    padding: 15px;
+    transition: opacity 0.3s;
+}
+.side-menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.side-menu ul li a:hover {
+    color: #95bfff;
+}
+.socialmedia {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.socialmedia img {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+/* images */
+figure img {
+    height: 25vh;
+    display: inline-block
+}
+figure {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    opacity: 0;
+}
+figure:hover figcaption {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
