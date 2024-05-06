@@ -42,7 +42,7 @@ a[href] {
 .nav {
     text-align: center;
     width: 25vw;
-    padding-bottom: 30vw;
+    padding-bottom: 3vw;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0%);
