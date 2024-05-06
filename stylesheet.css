@@ -55,6 +55,7 @@ a[href] {
     border: none;
     cursor: pointer;
     width: 100%;
+    transition: 0.5s;
 }
 .dropdown:hover {
     background-color: #ffffff;
