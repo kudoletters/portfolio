@@ -72,12 +72,12 @@ a[href] {
 .menu-icon {
     cursor: pointer;
     position: fixed;
-    top: 1.5vw;
+    top: 2vw;
     right: 2vw;
     z-index: 1000;
 }
 .bar {
-    width: 1.6vw;
+    width: 2vw;
     height: 0.2vw;
     background-color: #000000;
     margin: 0.5vw 0;
