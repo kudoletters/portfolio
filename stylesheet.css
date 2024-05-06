@@ -32,7 +32,7 @@ a[href] {
 
 /* heading setting */
 .h1 {
-    font-size: 3vw;
+    font-size: 2vw;
     font-weight: 800;
 }
 
@@ -77,10 +77,10 @@ a[href] {
     z-index: 1000;
 }
 .bar {
-    width: 3.5vw;
-    height: 0.3vw;
+    width: 2vw;
+    height: 0.2vw;
     background-color: #000000;
-    margin: 1vw 0;
+    margin: 0.4vw 0;
     transition: 0.5s;
 }
 .side-menu {
