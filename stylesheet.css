@@ -78,9 +78,9 @@ a[href] {
 }
 .bar {
     width: 2vw;
-    height: 0.2vw;
+    height: 0.3vw;
     background-color: #000000;
-    margin: 0.5vw 0;
+    margin: 0.3vw 0;
     transition: 0.5s;
 }
 .side-menu {
