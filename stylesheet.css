@@ -72,8 +72,8 @@ a[href] {
 .menu-icon {
     cursor: pointer;
     position: fixed;
-    top: 2vw;
-    right: 2vw;
+    top: 2.5vw;
+    right: 2.8vw;
     z-index: 1000;
 }
 .bar {
